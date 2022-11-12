@@ -1,0 +1,54 @@
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    width: 630px;
+    height: 500px;
+    border:solid black;
+}
+
+.grid div{
+    width: 30px;
+    height: 30px;
+}
+
+.wall {
+    background-color: white;
+}
+
+.oxygen {
+    background-color: blue;   
+    border: 5px solid darkblue;
+    box-sizing: border-box;    
+}
+
+.teleport {
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.spaceman {
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.alien { 
+    background-color: green;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: comic sans MS;
+    color: lightgrey;    
+}
+
+h3{
+    text-align: center;
+    font-family: comic sans MS;
+    color: lightgrey;
+}
+
+body{
+    background-image: url("image.jpg");
+}
+
